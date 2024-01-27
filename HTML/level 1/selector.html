@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>All selectors</title>
+  <style>
+    *{                              /*This example of Universal selector. */
+      background-color: cadetblue; 
+    }
+
+
+    h1{                              /*It is example of Element selector.*/
+      background-color: aqua;       
+    }
+
+    .para_1{                          /*Example of class selector.*/
+      background-color: aquamarine; 
+      color: blue;
+    }
+
+    #heading_2{                       /*Example of Id selector.*/
+      background-color: brown;       
+      color: yellow;
+      border: 2px solid green;
+    }
+
+    h3, h4, h5{                       /*Example of group selector.*/
+      background-color: black;
+      color: white;
+      padding: 5px;
+    }
+
+    div p{                            /*Example of descendant selector.*/
+      background-color: yellowgreen;
+      color: red;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <h1>This is first heading</h1>
+  <h2 id="heading_2">This is second heading</h2>
+  <h3>This is third heading</h3>
+  <h4>This is fourth heading</h4>
+  <h5>This is fifth heading</h5>
+
+  <p class="para_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In esse commodi optio magni reprehenderit excepturi molestias facere deserunt consequuntur molestiae.</p>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolore quo necessitatibus ea nulla rerum dolorem distinctio incidunt, reiciendis odio?</p>
+  </div>
+</body>
+</html>
