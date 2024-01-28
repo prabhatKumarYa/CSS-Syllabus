@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  margin-left: 5px;
+}
+#heading{
+  margin-left: 200px;
+}
+#container{
+  height: 300px;
+  width: 700px;
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#box1{
+  background-color: rebeccapurple;
+}
+#box2{
+  background-color: rgb(54, 153, 51);
+}
+#box3{
+  background-color: rgb(227, 10, 10);
+  align-self: center;
+}
+#box4{
+  background-color: rgb(190, 246, 5);
+}
