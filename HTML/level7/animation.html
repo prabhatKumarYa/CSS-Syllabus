@@ -5,8 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animation</title>
+  <style>
+    .box{
+      height: 100px;
+      width: 100px;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: yellow;
+      position: absolute;
+      left: 10;
+
+      animation-name: animate;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+
+      animation-direction: alternate;
+
+    }
+
+    @keyframes animate {
+      /* from{
+        left: 10px;}
+
+        to { left: 400px;} */
+
+        0%{left: 10px; top:0px}
+        50%{
+          left: 150px; top:100px
+        }
+        100%{
+          left: 300px; top: 0px;
+        }
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="box">Animation</div>
 </body>
 </html>
