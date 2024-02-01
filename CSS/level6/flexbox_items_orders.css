@@ -23,13 +23,17 @@
 }
 #box1{
   background-color: rebeccapurple;
+  order: 2;
 }
 #box2{
   background-color: rgb(54, 153, 51);
+  order: 4;
 }
 #box3{
   background-color: rgb(227, 10, 10);
+  order: 1;
 }
 #box4{
   background-color: rgb(190, 246, 5);
+  order: 3;
 }
